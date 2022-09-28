@@ -1,0 +1,12 @@
+svg {
+    color: black;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons svg {
+
+}
