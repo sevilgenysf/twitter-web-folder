@@ -1,7 +1,4 @@
 import React from 'react'
-
-import Button from '../components/button'
-
 import * as Icons from '../components/icons'
 
 export default {
