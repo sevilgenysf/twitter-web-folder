@@ -1,5 +1,19 @@
 .button {
-    background-color: #ccc;
-    cursor: pointer;
-    background: transparent;
+  cursor: pointer;
+  background: transparent;
+  color: inherit;
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 120ms;
+}
+
+.button:hover {
+  background-color: rgba(29, 161, 242, 0.2);
+  color: #1da1f2;
+}
+
+.fullWidth {
+  width: 100% !important;
 }

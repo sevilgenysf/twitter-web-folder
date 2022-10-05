@@ -1,0 +1,11 @@
+.main {
+  border-width: 0 1px;
+  border-style: solid;
+  border-color: #2f3336;
+}
+
+/* @media screen and (min-width: 980px) {
+  .main {
+    border-right: 1px solid #2f3336;
+  }
+} */

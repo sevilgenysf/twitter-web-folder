@@ -1,0 +1,16 @@
+.stack {
+  --gap: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.column {
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.column button {
+  margin-bottom: 10px;
+}

@@ -1,16 +1,6 @@
 .navButton {
   position: relative;
-  color: #fff;
   padding: 10px;
-  border-radius: 99px;
-  display: flex;
-  align-items: center;
-  transition: 120ms;
-}
-
-.navButton:hover {
-  background-color: rgba(29, 161, 242, 0.2);
-  color: #1DA1F2;
 }
 
 .navButton svg {
@@ -24,7 +14,7 @@
 }
 
 .navButtonSelected {
-  color: #1DA1F2;
+  color: #1da1f2;
 }
 
 .notify {
@@ -36,7 +26,7 @@
   height: 17px;
   padding-left: 6px;
   padding-right: 6px;
-  background-color: #1DA1F2;
+  background-color: #1da1f2;
   border-radius: 17px;
   color: #fff;
   font-size: 11px;

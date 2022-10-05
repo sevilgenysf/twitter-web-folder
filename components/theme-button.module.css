@@ -1,0 +1,19 @@
+.button {
+  background-color: #1da1f2;
+  color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 40px;
+  font-weight: bold;
+  min-width: 40px;
+}
+
+.button:hover {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.bigButton {
+  height: 47px;
+  min-width: 47px;
+}

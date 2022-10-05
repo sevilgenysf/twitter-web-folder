@@ -1,0 +1,24 @@
+.box {
+  padding: 10px;
+}
+
+.box:hover {
+  color: #fff;
+}
+
+.body {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.slug {
+  color: #6e767d;
+}
+
+.span {
+  display: block;
+}
+
+.icon {
+  margin-left: auto;
+}
