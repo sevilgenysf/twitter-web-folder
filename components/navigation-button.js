@@ -1,17 +1,23 @@
 import React from 'react'
-import Button from './button'
 import cn from 'classnames'
+
+import Button from './button'
 
 import styles from './navigation-button.module.css'
 
-function NavigationButton({ notify, children, selected, ...props }) {
+// TODO: selected durumunda ikonlar dolgulu olacak
+function NavigationButton({ notify, selected, children, className, ...props }) {
   return (
     <Button
-      className={cn(styles.navButton, selected && styles.navButtonSelected)}
+      className={cn(
+        styles.navButton,
+        selected && styles.navButtonSelected,
+        className
+      )}
       {...props}
     >
-      {children}
       {notify > 0 && <span className={styles.notify}>{notify}</span>}
+      {children}
     </Button>
   )
 }

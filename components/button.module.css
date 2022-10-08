@@ -7,10 +7,11 @@
   align-items: center;
   justify-content: center;
   transition: 120ms;
+  text-decoration: none;
 }
 
 .button:hover {
-  background-color: rgba(29, 161, 242, 0.2);
+  background-color: rgba(29, 161, 242, 0.1);
   color: #1da1f2;
 }
 

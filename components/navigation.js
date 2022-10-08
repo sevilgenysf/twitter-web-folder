@@ -1,96 +1,28 @@
 import React from 'react'
+import { MENU } from '../constants'
+import { useRouter } from 'next/router'
 import NavigationButton from './navigation-button'
 import styles from './navigation.module.css'
 import TextTitle from './text-title'
-import {
-  Twitter,
-  Home,
-  Explore,
-  Notification,
-  Messages,
-  Bookmark,
-  Lists,
-  Profile,
-  More,
-  ProfileFill,
-  ListsFill,
-  BookmarkFill,
-  MessagesFill,
-  NotificationFill,
-  ExplorerFill,
-  HomeFill
-} from './icons'
 
-const MENU = [
-  {
-    key: 'twitter',
-    icon: <Twitter />,
-    iconSelected: <Twitter />,
-    title: ''
-  },
-  {
-    key: 'home',
-    icon: <Home />,
-    iconSelected: <HomeFill />,
-    title: 'Home'
-  },
-  {
-    key: 'explore',
-    icon: <Explore />,
-    iconSelected: <ExplorerFill />,
-    title: 'Explore'
-  },
-  {
-    key: 'notification',
-    icon: <Notification />,
-    iconSelected: <NotificationFill />,
-    title: 'Notification',
-    notify: 17
-  },
-  {
-    key: 'messages',
-    icon: <Messages />,
-    iconSelected: <MessagesFill />,
-    title: 'Messages'
-  },
-  {
-    key: 'bookmark',
-    icon: <Bookmark />,
-    iconSelected: <BookmarkFill />,
-    title: 'Bookmark'
-  },
-  {
-    key: 'lists',
-    icon: <Lists />,
-    iconSelected: <ListsFill />,
-    title: 'Lists'
-  },
-  {
-    key: 'profile',
-    icon: <Profile />,
-    iconSelected: <ProfileFill />,
-    title: 'Profile'
-  },
-  {
-    key: 'more',
-    icon: <More />,
-    iconSelected: <More />,
-    title: 'More'
-  }
-]
+import cn from 'classnames'
 
-function Navigation({ flat, selectedKey = 'home' }) {
+function Navigation({ flat }) {
+  const router = useRouter()
+
   return (
     <nav className={styles.nav}>
       {MENU.map((menu) => {
         const showTitle = !flat && menu.title.length > 0
-        const selected = selectedKey === menu.key
+        const selected = router.pathname === menu.path
 
         return (
           <NavigationButton
             key={menu.key}
             notify={menu.notify}
             selected={selected}
+            href={menu.path}
+            className={cn(styles.navButton, menu.key)}
           >
             {selected ? menu.iconSelected : menu.icon}
             {showTitle && <TextTitle> {menu.title} </TextTitle>}
