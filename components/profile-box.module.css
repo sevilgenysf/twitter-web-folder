@@ -9,14 +9,15 @@
 .body {
   margin-left: 10px;
   margin-right: 20px;
+  display: block;
+}
+
+.body span {
+  display: block;
 }
 
 .slug {
   color: #6e767d;
-}
-
-.span {
-  display: block;
 }
 
 .icon {

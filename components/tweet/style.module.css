@@ -1,0 +1,31 @@
+.tweet {
+  display: grid;
+  grid-template-areas: 'avatar body';
+  grid-template-columns: 50px 1fr;
+  gap: 15px;
+  padding: 10px 15px;
+  border-bottom: 1px solid #2f3336;
+}
+
+.avatar {
+  grid-area: avatar;
+}
+
+.body {
+  grid-area: body;
+}
+
+.header {
+  color: #6e767d;
+}
+
+.name {
+  font-weight: bold;
+  color: #fff;
+}
+
+.content {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  white-space: pre-wrap;
+}
