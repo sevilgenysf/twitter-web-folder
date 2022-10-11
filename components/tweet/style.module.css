@@ -3,7 +3,7 @@
   grid-template-areas: 'avatar body';
   grid-template-columns: 50px 1fr;
   gap: 15px;
-  padding: 10px 15px;
+  padding: 20px 15px;
   border-bottom: 1px solid #2f3336;
 }
 
@@ -28,4 +28,31 @@
   margin-top: 5px;
   margin-bottom: 5px;
   white-space: pre-wrap;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.footerButton {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  color: #6e767d;
+}
+
+.footerButton span {
+  font-size: 0.9rem;
+}
+
+.footerButton:first-child {
+  margin-left: -8px;
+}
+
+.actionButton {
+  color: inherit;
+}
+.actionButton svg {
+  font-size: 19px;
 }
