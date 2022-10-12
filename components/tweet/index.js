@@ -240,7 +240,7 @@ function Tweet({ name, slug, datetime, text }) {
               <IconButton className={styles.actionButton}>
                 <Icon.Reply />
               </IconButton>
-              <span>3</span>
+              <span>4</span>
             </div>
             <div className={styles.footerButton}>
               <IconButton className={styles.actionButton}>
