@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 const SvgRetweet = (props) => (
   <svg
@@ -14,6 +14,6 @@ const SvgRetweet = (props) => (
       fill="currentColor"
     />
   </svg>
-);
+)
 
-export default SvgRetweet;
+export default SvgRetweet

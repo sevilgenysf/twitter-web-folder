@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 const SvgMedia = (props) => (
   <svg
@@ -18,6 +18,6 @@ const SvgMedia = (props) => (
       fill="currentColor"
     />
   </svg>
-);
+)
 
-export default SvgMedia;
+export default SvgMedia

@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 const SvgReply = (props) => (
   <svg
@@ -14,6 +14,6 @@ const SvgReply = (props) => (
       fill="currentColor"
     />
   </svg>
-);
+)
 
-export default SvgReply;
+export default SvgReply

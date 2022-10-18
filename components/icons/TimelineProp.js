@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 const SvgTimelineProp = (props) => (
   <svg
@@ -14,6 +14,6 @@ const SvgTimelineProp = (props) => (
       fill="currentColor"
     />
   </svg>
-);
+)
 
-export default SvgTimelineProp;
+export default SvgTimelineProp

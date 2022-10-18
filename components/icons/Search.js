@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 const SvgSearch = (props) => (
   <svg
@@ -14,6 +14,6 @@ const SvgSearch = (props) => (
       fill="currentColor"
     />
   </svg>
-);
+)
 
-export default SvgSearch;
+export default SvgSearch

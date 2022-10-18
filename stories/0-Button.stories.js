@@ -33,5 +33,5 @@ export const NavButton = () => (
 )
 export const Nav = () => {
   const flat = boolean('Flat', false)
-  return <Navigation flat={flat} selectedKey={'home'} />
+  return <Navigation flat={flat} selectedKey="home" />
 }

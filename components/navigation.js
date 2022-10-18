@@ -7,7 +7,7 @@ import TextTitle from './text-title'
 
 import cn from 'classnames'
 
-function Navigation({ flat }) {
+function Navigation({ flat = false }) {
   const router = useRouter()
 
   return (

@@ -1,0 +1,50 @@
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.modal {
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-areas: 'avatar body';
+  grid-template-columns: 50px 1fr;
+  gap: 15px;
+  padding: 30px;
+  border-bottom: 1px solid #2f3336;
+  background-color: #000;
+  border-radius: 20px;
+}
+
+.avatar {
+  grid-area: avatar;
+}
+
+.body {
+  grid-area: body;
+}
+
+.textarea {
+  resize: none;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  font-size: 1.5rem;
+  display: block;
+  width: 100%;
+}
+
+.footer {
+  justify-content: flex-end;
+}
+
+.close {
+  color: #6e767d;
+}

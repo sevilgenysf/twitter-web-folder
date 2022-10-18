@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 const SvgBookmarkFill = (props) => (
   <svg
@@ -14,6 +14,6 @@ const SvgBookmarkFill = (props) => (
       fill="currentColor"
     />
   </svg>
-);
+)
 
-export default SvgBookmarkFill;
+export default SvgBookmarkFill

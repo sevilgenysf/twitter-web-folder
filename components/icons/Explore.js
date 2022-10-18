@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 const SvgExplore = (props) => (
   <svg
@@ -14,6 +14,6 @@ const SvgExplore = (props) => (
       fill="currentColor"
     />
   </svg>
-);
+)
 
-export default SvgExplore;
+export default SvgExplore

@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 const SvgLike = (props) => (
   <svg
@@ -14,6 +14,6 @@ const SvgLike = (props) => (
       fill="currentColor"
     />
   </svg>
-);
+)
 
-export default SvgLike;
+export default SvgLike

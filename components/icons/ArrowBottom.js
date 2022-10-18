@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 const SvgArrowBottom = (props) => (
   <svg
@@ -14,6 +14,6 @@ const SvgArrowBottom = (props) => (
       fill="currentColor"
     />
   </svg>
-);
+)
 
-export default SvgArrowBottom;
+export default SvgArrowBottom
